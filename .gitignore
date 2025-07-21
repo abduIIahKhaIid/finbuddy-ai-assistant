@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+
+# Virtual Environments
+.env
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# Python dependency files
+*.lock
+poetry.lock
+
+# Others
+*.log
+*.sqlite3
+*.db
+
+# Ignore secrets
+.env
+*.key
+*.pem
